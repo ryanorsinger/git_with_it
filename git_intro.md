@@ -40,4 +40,25 @@ version control system: system for systematically traacking changes
 
 - adding files/changes is like putting letters in an envelope.
 - making a commit is like SEALING that envelope with a timestamp and your personal signature/stamp
-- pushing means to upload one or more commits (any un-pushed commits with get pushedx)
+- pushing means to upload one or more commits (any un-pushed commits will be pushed/uploaded)
+
+BTW:
+- completely avoid making repos inside of repos.
+
+## Best Practices
+- Make a new repo locally(laptop) and remotely (on github) for each new project
+- One time setup: setup your repo locally and remotely.
+- Wisdom: one repo per project. 
+
+## Here's our workflow moving forward (best practices)
+- Daily Workflow:
+	- Do work (creating file(s), editing file(s), deleting stuff in a repo)
+	- `git add .`
+	- `git commit` then type out a meaningful commit message to tell a story
+	- `git push`
+- Make commits and push before lunch/end of the day (or any time you close laptop)
+- Guidance:
+	- If your code ain't in source control (on GitHub), it doesn't
+ exist
+ 	- Commit early and commit often. Commiting after you add a feature or finish a stage of the DS pipeline. 
+ 	- Be sure to push every day.
